@@ -46,7 +46,7 @@ class Model:
             edge_away = expected_away - be_away
             edge_draw = expected_draw - be_draw
 
-            MIN_EDGE = 0.03  # Minimální edge 3% pro vsazení (vyšší = konzervativnější)
+            MIN_EDGE = 0.17  # Minimální edge 3% pro vsazení (vyšší = konzervativnější)
 
             # Sázej JEN na nejvyšší pozitivní edge
             best_edge = max(edge_home, edge_away, edge_draw)
